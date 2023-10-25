@@ -41,10 +41,9 @@ describe("Deploy Genesis Contract", () => {
 
     // Estimate deployment fee
     const { suggestedMaxFee: estimatedFee } = await account0.estimateDeployFee({
-      classHash: CLASS_HASH,
+      classHash: CLASS_HASH, constructorCalldata: callData,
     });
     expect(estimatedFee).toBeGreaterThan(0n);
-
     const preTransactBalance = await feeInstance.balanceOf(
       ARGENT_CONTRACT_ADDRESS,
     );
@@ -65,5 +64,11 @@ describe("Deploy Genesis Contract", () => {
       ARGENT_CONTRACT_ADDRESS,
     );
     verifyFeeEstimation(preTransactBalance, postTransactBalance, estimatedFee);
+
+    const newContract = new Contract(feeTokenContract.abi, deployResponse.contract_address, provider);
+    expect((await newContract.name()).name).toBe(4344897n);
+    expect((await newContract.decimals()).decimals).toBe(18n);
+    expect((await newContract.symbol()).symbol).toBe(5526612n);
+
   }, 30000);
 });

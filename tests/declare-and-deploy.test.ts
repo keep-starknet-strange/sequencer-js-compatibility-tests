@@ -80,7 +80,7 @@ describe("Starknet Contract Operations", () => {
 
       // Estimate and verify deployment fee
       const { suggestedMaxFee: estimatedFee } =
-        await account0.estimateDeployFee({ classHash: CLASS_HASH });
+        await account0.estimateDeployFee({ classHash: CLASS_HASH, constructorCalldata: callData });
       expect(estimatedFee).toBeGreaterThan(0n);
 
       const preTransact = await feeInstance.balanceOf(ARGENT_CONTRACT_ADDRESS);
@@ -165,7 +165,7 @@ describe("Starknet Contract Operations", () => {
 
       // Estimate and verify deployment fee
       const { suggestedMaxFee: estimatedFee } =
-        await account0.estimateDeployFee({ classHash: CLASS_HASH });
+        await account0.estimateDeployFee({ classHash: CLASS_HASH  });
       expect(estimatedFee).toBeGreaterThan(0n);
 
       const preTransact = await feeInstance.balanceOf(ARGENT_CONTRACT_ADDRESS);
