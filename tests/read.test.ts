@@ -57,9 +57,9 @@ describe("Contract Reads", () => {
 
     it("reads other variables", async () => {
       // genesis is deployed without a name, symbol or decimals
-      expect((await instance.name()).name).toBe(0n);
-      expect((await instance.decimals()).decimals).toBe(0n);
-      expect((await instance.symbol()).symbol).toBe(0n);
+      expect((await instance.name()).name).toBe(298305742194n);
+      expect((await instance.decimals()).decimals).toBe(18n);
+      expect((await instance.symbol()).symbol).toBe(4543560n);
 
       // the total supply is wrong, as the balance was set via state update
       const totalSupplyEncoded = await instance.totalSupply();
