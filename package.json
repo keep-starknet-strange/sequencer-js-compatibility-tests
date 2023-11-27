@@ -12,10 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^20.8.4",
+    "ajv-keywords": "^5.1.0",
+    "jest-json-schema": "^6.1.0",
     "starknet": "latest"
   },
   "devDependencies": {
     "@types/jest": "^29.5.5",
+    "@types/jest-json-schema": "^6.1.4",
     "jest": "^29.7.0",
     "typescript": "^5.2.2"
   }
