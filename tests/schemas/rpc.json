@@ -67,7 +67,14 @@
           "type": "string"
         }
       },
-      "required": ["from_address", "keys", "data", "block_hash", "block_number", "transaction_hash"]
+      "required": [
+        "from_address",
+        "keys",
+        "data",
+        "block_hash",
+        "block_number",
+        "transaction_hash"
+      ]
     }
   }
 }

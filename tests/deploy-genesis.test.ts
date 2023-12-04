@@ -1,11 +1,4 @@
-import {
-  RpcProvider,
-  Account,
-  Contract,
-  CallData,
-  cairo,
-  json,
-} from "starknet";
+import { RpcProvider, Account, Contract, CallData, cairo } from "starknet";
 import {
   RPC_URL,
   SIGNER_PRIVATE,
@@ -41,7 +34,8 @@ describe("Deploy Genesis Contract", () => {
 
     // Estimate deployment fee
     const { suggestedMaxFee: estimatedFee } = await account0.estimateDeployFee({
-      classHash: CLASS_HASH, constructorCalldata: callData,
+      classHash: CLASS_HASH,
+      constructorCalldata: callData,
     });
     expect(estimatedFee).toBeGreaterThan(0n);
     const preTransactBalance = await feeInstance.balanceOf(
@@ -65,10 +59,13 @@ describe("Deploy Genesis Contract", () => {
     );
     verifyFeeEstimation(preTransactBalance, postTransactBalance, estimatedFee);
 
-    const newContract = new Contract(feeTokenContract.abi, deployResponse.contract_address, provider);
+    const newContract = new Contract(
+      feeTokenContract.abi,
+      deployResponse.contract_address,
+      provider,
+    );
     expect((await newContract.name()).name).toBe(4344897n);
     expect((await newContract.decimals()).decimals).toBe(18n);
     expect((await newContract.symbol()).symbol).toBe(5526612n);
-
   }, 30000);
 });

@@ -682,7 +682,10 @@
         "value": "This domain has expired"
       },
       {
-        "accessible_scopes": ["src.naming.registration", "src.naming.registration.assert_is_owner"],
+        "accessible_scopes": [
+          "src.naming.registration",
+          "src.naming.registration.assert_is_owner"
+        ],
         "end_pc": 1444,
         "flow_tracking_data": {
           "ap_tracking": {
@@ -710,7 +713,10 @@
         "value": "You do not have rights on this domain"
       },
       {
-        "accessible_scopes": ["src.naming.registration", "src.naming.registration.assert_is_owner"],
+        "accessible_scopes": [
+          "src.naming.registration",
+          "src.naming.registration.assert_is_owner"
+        ],
         "end_pc": 1456,
         "flow_tracking_data": {
           "ap_tracking": {
@@ -956,7 +962,11 @@
         "value": "A domain can't be purchased for more than 25 years"
       },
       {
-        "accessible_scopes": ["__main__", "__main__", "__main__.transfer_domain"],
+        "accessible_scopes": [
+          "__main__",
+          "__main__",
+          "__main__.transfer_domain"
+        ],
         "end_pc": 2460,
         "flow_tracking_data": {
           "ap_tracking": {
@@ -983,7 +993,11 @@
         "value": "Target token_id already has a domain"
       },
       {
-        "accessible_scopes": ["__main__", "__main__", "__main__.whitelisted_mint"],
+        "accessible_scopes": [
+          "__main__",
+          "__main__",
+          "__main__.whitelisted_mint"
+        ],
         "end_pc": 2954,
         "flow_tracking_data": {
           "ap_tracking": {
@@ -1013,7 +1027,11 @@
         "value": "This signature has already been used"
       },
       {
-        "accessible_scopes": ["__main__", "__main__", "__main__.whitelisted_mint"],
+        "accessible_scopes": [
+          "__main__",
+          "__main__",
+          "__main__.whitelisted_mint"
+        ],
         "end_pc": 2963,
         "flow_tracking_data": {
           "ap_tracking": {
@@ -4655,7 +4673,12 @@
       ],
       "1515": [
         {
-          "accessible_scopes": ["__main__", "__main__", "__wrappers__", "__wrappers__.initializer"],
+          "accessible_scopes": [
+            "__main__",
+            "__main__",
+            "__wrappers__",
+            "__wrappers__.initializer"
+          ],
           "code": "memory[ap] = segments.add()",
           "flow_tracking_data": {
             "ap_tracking": {
@@ -4869,7 +4892,12 @@
       ],
       "2043": [
         {
-          "accessible_scopes": ["__main__", "__main__", "__wrappers__", "__wrappers__.book_domain"],
+          "accessible_scopes": [
+            "__main__",
+            "__main__",
+            "__wrappers__",
+            "__wrappers__.book_domain"
+          ],
           "code": "memory[ap] = segments.add()",
           "flow_tracking_data": {
             "ap_tracking": {
@@ -4892,7 +4920,12 @@
       ],
       "2169": [
         {
-          "accessible_scopes": ["__main__", "__main__", "__wrappers__", "__wrappers__.buy"],
+          "accessible_scopes": [
+            "__main__",
+            "__main__",
+            "__wrappers__",
+            "__wrappers__.buy"
+          ],
           "code": "memory[ap] = segments.add()",
           "flow_tracking_data": {
             "ap_tracking": {
@@ -4952,7 +4985,12 @@
       ],
       "2400": [
         {
-          "accessible_scopes": ["__main__", "__main__", "__wrappers__", "__wrappers__.renew"],
+          "accessible_scopes": [
+            "__main__",
+            "__main__",
+            "__wrappers__",
+            "__wrappers__.renew"
+          ],
           "code": "memory[ap] = segments.add()",
           "flow_tracking_data": {
             "ap_tracking": {
@@ -5044,7 +5082,12 @@
       ],
       "2700": [
         {
-          "accessible_scopes": ["__main__", "__main__", "__wrappers__", "__wrappers__.set_admin"],
+          "accessible_scopes": [
+            "__main__",
+            "__main__",
+            "__wrappers__",
+            "__wrappers__.set_admin"
+          ],
           "code": "memory[ap] = segments.add()",
           "flow_tracking_data": {
             "ap_tracking": {
@@ -5245,7 +5288,12 @@
       ],
       "3092": [
         {
-          "accessible_scopes": ["__main__", "__main__", "__wrappers__", "__wrappers__.upgrade"],
+          "accessible_scopes": [
+            "__main__",
+            "__main__",
+            "__wrappers__",
+            "__wrappers__.upgrade"
+          ],
           "code": "memory[ap] = segments.add()",
           "flow_tracking_data": {
             "ap_tracking": {
