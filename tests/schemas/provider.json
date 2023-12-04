@@ -140,7 +140,12 @@
           }
         }
       },
-      "required": ["storage_diffs", "declared_contract_hashes", "deployed_contracts", "nonce"]
+      "required": [
+        "storage_diffs",
+        "declared_contract_hashes",
+        "deployed_contracts",
+        "nonce"
+      ]
     },
     "GetTransactionResponse": {
       "type": "object",

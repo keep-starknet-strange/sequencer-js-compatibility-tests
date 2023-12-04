@@ -4296,7 +4296,12 @@
       ],
       "1595": [
         {
-          "accessible_scopes": ["__main__", "__main__", "__wrappers__", "__wrappers__.constructor"],
+          "accessible_scopes": [
+            "__main__",
+            "__main__",
+            "__wrappers__",
+            "__wrappers__.constructor"
+          ],
           "code": "memory[ap] = segments.add()",
           "flow_tracking_data": {
             "ap_tracking": {
@@ -4547,7 +4552,12 @@
       ],
       "2315": [
         {
-          "accessible_scopes": ["__main__", "__main__", "__wrappers__", "__wrappers__.approve"],
+          "accessible_scopes": [
+            "__main__",
+            "__main__",
+            "__wrappers__",
+            "__wrappers__.approve"
+          ],
           "code": "memory[ap] = segments.add()",
           "flow_tracking_data": {
             "ap_tracking": {
@@ -4662,7 +4672,12 @@
       ],
       "2453": [
         {
-          "accessible_scopes": ["__main__", "__main__", "__wrappers__", "__wrappers__.mint"],
+          "accessible_scopes": [
+            "__main__",
+            "__main__",
+            "__wrappers__",
+            "__wrappers__.mint"
+          ],
           "code": "memory[ap] = segments.add()",
           "flow_tracking_data": {
             "ap_tracking": {

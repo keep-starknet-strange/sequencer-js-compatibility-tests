@@ -3545,246 +3545,46 @@
     ]
   ],
   "pythonic_hints": [
-    [
-      0,
-      [
-        "memory[ap + 0] = 65550 <= memory[fp + -6]"
-      ]
-    ],
-    [
-      58,
-      [
-        "memory[ap + 0] = memory[ap + -1] <= memory[ap + -62]"
-      ]
-    ],
-    [
-      77,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      102,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      121,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      136,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      151,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      166,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      181,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      197,
-      [
-        "memory[ap + 0] = 61530 <= memory[fp + -6]"
-      ]
-    ],
-    [
-      243,
-      [
-        "memory[ap + 0] = memory[ap + -1] <= memory[ap + -30]"
-      ]
-    ],
-    [
-      262,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      287,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      306,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      321,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      336,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      352,
-      [
-        "memory[ap + 0] = 71520 <= memory[fp + -6]"
-      ]
-    ],
-    [
-      414,
-      [
-        "memory[ap + 0] = memory[ap + -1] <= memory[ap + -19]"
-      ]
-    ],
-    [
-      433,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      458,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      477,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      492,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      516,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      531,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      546,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      562,
-      [
-        "memory[ap + 0] = 42710 <= memory[fp + -6]"
-      ]
-    ],
-    [
-      606,
-      [
-        "memory[ap + 0] = 0 <= memory[ap + -16]"
-      ]
-    ],
-    [
-      644,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      662,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      676,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      698,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      713,
-      [
-        "memory[ap + 0] = 9350 <= memory[fp + -6]"
-      ]
-    ],
-    [
-      754,
-      [
-        "memory[ap + 0] = 0 <= memory[ap + -27]"
-      ]
-    ],
-    [
-      775,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      793,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      811,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      825,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      839,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      972,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      1022,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
+    [0, ["memory[ap + 0] = 65550 <= memory[fp + -6]"]],
+    [58, ["memory[ap + 0] = memory[ap + -1] <= memory[ap + -62]"]],
+    [77, ["memory[ap + 0] = segments.add()"]],
+    [102, ["memory[ap + 0] = segments.add()"]],
+    [121, ["memory[ap + 0] = segments.add()"]],
+    [136, ["memory[ap + 0] = segments.add()"]],
+    [151, ["memory[ap + 0] = segments.add()"]],
+    [166, ["memory[ap + 0] = segments.add()"]],
+    [181, ["memory[ap + 0] = segments.add()"]],
+    [197, ["memory[ap + 0] = 61530 <= memory[fp + -6]"]],
+    [243, ["memory[ap + 0] = memory[ap + -1] <= memory[ap + -30]"]],
+    [262, ["memory[ap + 0] = segments.add()"]],
+    [287, ["memory[ap + 0] = segments.add()"]],
+    [306, ["memory[ap + 0] = segments.add()"]],
+    [321, ["memory[ap + 0] = segments.add()"]],
+    [336, ["memory[ap + 0] = segments.add()"]],
+    [352, ["memory[ap + 0] = 71520 <= memory[fp + -6]"]],
+    [414, ["memory[ap + 0] = memory[ap + -1] <= memory[ap + -19]"]],
+    [433, ["memory[ap + 0] = segments.add()"]],
+    [458, ["memory[ap + 0] = segments.add()"]],
+    [477, ["memory[ap + 0] = segments.add()"]],
+    [492, ["memory[ap + 0] = segments.add()"]],
+    [516, ["memory[ap + 0] = segments.add()"]],
+    [531, ["memory[ap + 0] = segments.add()"]],
+    [546, ["memory[ap + 0] = segments.add()"]],
+    [562, ["memory[ap + 0] = 42710 <= memory[fp + -6]"]],
+    [606, ["memory[ap + 0] = 0 <= memory[ap + -16]"]],
+    [644, ["memory[ap + 0] = segments.add()"]],
+    [662, ["memory[ap + 0] = segments.add()"]],
+    [676, ["memory[ap + 0] = segments.add()"]],
+    [698, ["memory[ap + 0] = segments.add()"]],
+    [713, ["memory[ap + 0] = 9350 <= memory[fp + -6]"]],
+    [754, ["memory[ap + 0] = 0 <= memory[ap + -27]"]],
+    [775, ["memory[ap + 0] = segments.add()"]],
+    [793, ["memory[ap + 0] = segments.add()"]],
+    [811, ["memory[ap + 0] = segments.add()"]],
+    [825, ["memory[ap + 0] = segments.add()"]],
+    [839, ["memory[ap + 0] = segments.add()"]],
+    [972, ["memory[ap + 0] = segments.add()"]],
+    [1022, ["memory[ap + 0] = segments.add()"]],
     [
       1061,
       [
@@ -3803,66 +3603,16 @@
         "\n(value, scalar) = (memory[ap + -2], 10633823966279326983230456482242756608)\nx = min(value // scalar, 340282366920938463463374607431768211455)\ny = value - x * scalar\nmemory[ap + -1] = x\nmemory[ap + 0] = y\n"
       ]
     ],
-    [
-      1136,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      1209,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      1341,
-      [
-        "syscall_handler.syscall(syscall_ptr=memory[ap + -23])"
-      ]
-    ],
-    [
-      1380,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      1395,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      1410,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      1434,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      1510,
-      [
-        "syscall_handler.syscall(syscall_ptr=memory[fp + -3])"
-      ]
-    ],
-    [
-      1550,
-      [
-        "memory[ap + 0] = memory[fp + -3] < memory[ap + -1]"
-      ]
-    ],
-    [
-      1570,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
+    [1136, ["memory[ap + 0] = segments.add()"]],
+    [1209, ["memory[ap + 0] = segments.add()"]],
+    [1341, ["syscall_handler.syscall(syscall_ptr=memory[ap + -23])"]],
+    [1380, ["memory[ap + 0] = segments.add()"]],
+    [1395, ["memory[ap + 0] = segments.add()"]],
+    [1410, ["memory[ap + 0] = segments.add()"]],
+    [1434, ["memory[ap + 0] = segments.add()"]],
+    [1510, ["syscall_handler.syscall(syscall_ptr=memory[fp + -3])"]],
+    [1550, ["memory[ap + 0] = memory[fp + -3] < memory[ap + -1]"]],
+    [1570, ["memory[ap + 0] = segments.add()"]],
     [
       1619,
       [
@@ -3887,42 +3637,12 @@
         "\n(value, scalar) = (memory[ap + -3], 5316911983139663648412552867652567040)\nx = min(value // scalar, 340282366920938463463374607431768211455)\ny = value - x * scalar\nmemory[ap + 0] = x\nmemory[ap + 1] = y\n"
       ]
     ],
-    [
-      1782,
-      [
-        "memory[ap + 0] = 4880 <= memory[fp + -8]"
-      ]
-    ],
-    [
-      1865,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      1890,
-      [
-        "memory[ap + 0] = 17370 <= memory[fp + -8]"
-      ]
-    ],
-    [
-      1993,
-      [
-        "memory[ap + 0] = segments.add()"
-      ]
-    ],
-    [
-      2057,
-      [
-        "syscall_handler.syscall(syscall_ptr=memory[fp + -4])"
-      ]
-    ],
-    [
-      2102,
-      [
-        "syscall_handler.syscall(syscall_ptr=memory[fp + -3])"
-      ]
-    ],
+    [1782, ["memory[ap + 0] = 4880 <= memory[fp + -8]"]],
+    [1865, ["memory[ap + 0] = segments.add()"]],
+    [1890, ["memory[ap + 0] = 17370 <= memory[fp + -8]"]],
+    [1993, ["memory[ap + 0] = segments.add()"]],
+    [2057, ["syscall_handler.syscall(syscall_ptr=memory[fp + -4])"]],
+    [2102, ["syscall_handler.syscall(syscall_ptr=memory[fp + -3])"]],
     [
       2163,
       [
@@ -3943,33 +3663,22 @@
       {
         "selector": "0x15d40a3d6ca2ac30f4031e42be28da9b056fef9bb7357ac5e85627ee876e5ad",
         "offset": 562,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x162da33a4585851fe8d3af3c2a9c60b557814e221e0d4f30ff0b2189d9c7775",
         "offset": 352,
-        "builtins": [
-          "range_check",
-          "ec_op"
-        ]
+        "builtins": ["range_check", "ec_op"]
       },
       {
         "selector": "0x289da278a8dc833409cabfdad1581e8e7d40e42dcaed693fa4008dcdb4963b3",
         "offset": 197,
-        "builtins": [
-          "range_check",
-          "ec_op"
-        ]
+        "builtins": ["range_check", "ec_op"]
       },
       {
         "selector": "0x36fcbf06cd96843058359e1a75928beacfac10727dab22a3972f0af8aa92895",
         "offset": 0,
-        "builtins": [
-          "range_check",
-          "ec_op"
-        ]
+        "builtins": ["range_check", "ec_op"]
       }
     ],
     "L1_HANDLER": [],
@@ -3977,9 +3686,7 @@
       {
         "selector": "0x28ffe4ff0f226a9107253e17a904099aa4f63a02a5621de0576e5aa71bc5194",
         "offset": 713,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       }
     ]
   }

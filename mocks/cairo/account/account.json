@@ -1153,7 +1153,10 @@
       [15, "Tuple<core::array::Span::<core::felt252>>"],
       [16, "core::PanicResult::<(core::array::Span::<core::felt252>,)>"],
       [17, "ContractAddress"],
-      [18, "core::option::Option::<core::starknet::contract_address::ContractAddress>"],
+      [
+        18,
+        "core::option::Option::<core::starknet::contract_address::ContractAddress>"
+      ],
       [19, "core::option::Option::<core::array::Array::<core::felt252>>"],
       [
         20,
@@ -1165,7 +1168,10 @@
       ],
       [22, "account::account::Call"],
       [23, "Array<account::account::Call>"],
-      [24, "core::option::Option::<core::array::Array::<account::account::Call>>"],
+      [
+        24,
+        "core::option::Option::<core::array::Array::<account::account::Call>>"
+      ],
       [
         25,
         "Tuple<core::array::Span::<core::felt252>, core::option::Option::<core::array::Array::<account::account::Call>>>"
@@ -1182,11 +1188,17 @@
       [32, "core::starknet::info::TxInfo"],
       [33, "Box<core::starknet::info::TxInfo>"],
       [34, "Tuple<Box<core::starknet::info::TxInfo>>"],
-      [35, "core::PanicResult::<(core::box::Box::<core::starknet::info::TxInfo>,)>"],
+      [
+        35,
+        "core::PanicResult::<(core::box::Box::<core::starknet::info::TxInfo>,)>"
+      ],
       [36, "Tuple<Box<felt252>>"],
       [37, "core::PanicResult::<(core::box::Box::<@core::felt252>,)>"],
       [38, "Tuple<ContractAddress>"],
-      [39, "core::PanicResult::<(core::starknet::contract_address::ContractAddress,)>"],
+      [
+        39,
+        "core::PanicResult::<(core::starknet::contract_address::ContractAddress,)>"
+      ],
       [40, "NonZero<felt252>"],
       [41, "Snapshot<Array<account::account::Call>>"],
       [42, "Box<account::account::Call>"],
@@ -1200,10 +1212,16 @@
       [47, "core::starknet::info::ExecutionInfo"],
       [48, "Box<core::starknet::info::ExecutionInfo>"],
       [49, "Tuple<Box<core::starknet::info::ExecutionInfo>>"],
-      [50, "core::PanicResult::<(core::box::Box::<core::starknet::info::ExecutionInfo>,)>"],
+      [
+        50,
+        "core::PanicResult::<(core::box::Box::<core::starknet::info::ExecutionInfo>,)>"
+      ],
       [51, "StorageBaseAddress"],
       [52, "StorageAddress"],
-      [53, "core::result::Result::<core::felt252, core::array::Array::<core::felt252>>"],
+      [
+        53,
+        "core::result::Result::<core::felt252, core::array::Array::<core::felt252>>"
+      ],
       [54, "EcPoint"],
       [55, "NonZero<EcPoint>"],
       [56, "core::option::Option::<account::account::Call>"],
@@ -1254,7 +1272,10 @@
       [26, "store_temp<EcOp>"],
       [27, "store_temp<GasBuiltin>"],
       [28, "store_temp<System>"],
-      [29, "function_call<user@account::account::Account::validate_transaction>"],
+      [
+        29,
+        "function_call<user@account::account::Account::validate_transaction>"
+      ],
       [30, "enum_match<core::PanicResult::<(core::felt252,)>>"],
       [31, "struct_deconstruct<Tuple<felt252>>"],
       [32, "array_new<felt252>"],
@@ -1266,20 +1287,38 @@
       [38, "drop<Array<felt252>>"],
       [39, "struct_construct<core::array::Span::<core::felt252>>"],
       [40, "struct_construct<Tuple<core::array::Span::<core::felt252>>>"],
-      [41, "enum_init<core::PanicResult::<(core::array::Span::<core::felt252>,)>, 0>"],
-      [42, "store_temp<core::PanicResult::<(core::array::Span::<core::felt252>,)>>"],
-      [43, "enum_init<core::PanicResult::<(core::array::Span::<core::felt252>,)>, 1>"],
+      [
+        41,
+        "enum_init<core::PanicResult::<(core::array::Span::<core::felt252>,)>, 0>"
+      ],
+      [
+        42,
+        "store_temp<core::PanicResult::<(core::array::Span::<core::felt252>,)>>"
+      ],
+      [
+        43,
+        "enum_init<core::PanicResult::<(core::array::Span::<core::felt252>,)>, 1>"
+      ],
       [44, "felt252_const<375233589013918064796019>"],
       [45, "array_append<felt252>"],
       [46, "function_call<user@core::starknet::use_system_implicit>"],
-      [47, "felt252_const<7733229381460288120802334208475838166080759535023995805565484692595>"],
+      [
+        47,
+        "felt252_const<7733229381460288120802334208475838166080759535023995805565484692595>"
+      ],
       [48, "drop<core::array::Span::<core::felt252>>"],
-      [49, "felt252_const<1979706721653833758925397712865600297316042839304765459608024204080243>"],
+      [
+        49,
+        "felt252_const<1979706721653833758925397712865600297316042839304765459608024204080243>"
+      ],
       [
         50,
         "function_call<user@core::starknet::contract_address::ContractAddressSerde::deserialize>"
       ],
-      [51, "enum_match<core::option::Option::<core::starknet::contract_address::ContractAddress>>"],
+      [
+        51,
+        "enum_match<core::option::Option::<core::starknet::contract_address::ContractAddress>>"
+      ],
       [52, "drop<ContractAddress>"],
       [
         53,
@@ -1293,7 +1332,10 @@
         55,
         "struct_deconstruct<Tuple<core::array::Span::<core::felt252>, core::option::Option::<core::array::Array::<core::felt252>>>>"
       ],
-      [56, "enum_match<core::option::Option::<core::array::Array::<core::felt252>>>"],
+      [
+        56,
+        "enum_match<core::option::Option::<core::array::Array::<core::felt252>>>"
+      ],
       [
         57,
         "function_call<user@core::serde::ArraySerde::<account::account::Call, account::account::CallSerde, account::account::CallDrop>::deserialize>"
@@ -1306,28 +1348,49 @@
         59,
         "struct_deconstruct<Tuple<core::array::Span::<core::felt252>, core::option::Option::<core::array::Array::<account::account::Call>>>>"
       ],
-      [60, "enum_match<core::option::Option::<core::array::Array::<account::account::Call>>>"],
+      [
+        60,
+        "enum_match<core::option::Option::<core::array::Array::<account::account::Call>>>"
+      ],
       [61, "store_temp<Array<account::account::Call>>"],
       [62, "function_call<user@account::account::Account::__execute__>"],
-      [63, "enum_match<core::PanicResult::<(core::array::Span::<core::felt252>,)>>"],
+      [
+        63,
+        "enum_match<core::PanicResult::<(core::array::Span::<core::felt252>,)>>"
+      ],
       [64, "struct_deconstruct<Tuple<core::array::Span::<core::felt252>>>"],
       [65, "drop<Array<account::account::Call>>"],
       [66, "function_call<user@account::account::Account::constructor>"],
       [67, "enum_match<core::PanicResult::<((),)>>"],
       [68, "drop<Tuple<Unit>>"],
       [69, "array_snapshot_pop_front<felt252>"],
-      [70, "enum_init<core::option::Option::<core::box::Box::<@core::felt252>>, 0>"],
+      [
+        70,
+        "enum_init<core::option::Option::<core::box::Box::<@core::felt252>>, 0>"
+      ],
       [71, "store_temp<Snapshot<Array<felt252>>>"],
-      [72, "store_temp<core::option::Option::<core::box::Box::<@core::felt252>>>"],
-      [73, "enum_init<core::option::Option::<core::box::Box::<@core::felt252>>, 1>"],
-      [74, "enum_match<core::option::Option::<core::box::Box::<@core::felt252>>>"],
+      [
+        72,
+        "store_temp<core::option::Option::<core::box::Box::<@core::felt252>>>"
+      ],
+      [
+        73,
+        "enum_init<core::option::Option::<core::box::Box::<@core::felt252>>, 1>"
+      ],
+      [
+        74,
+        "enum_match<core::option::Option::<core::box::Box::<@core::felt252>>>"
+      ],
       [75, "unbox<felt252>"],
       [76, "rename<felt252>"],
       [77, "enum_init<core::option::Option::<core::felt252>, 0>"],
       [78, "store_temp<core::option::Option::<core::felt252>>"],
       [79, "enum_init<core::option::Option::<core::felt252>, 1>"],
       [80, "function_call<user@core::starknet::info::get_tx_info>"],
-      [81, "enum_match<core::PanicResult::<(core::box::Box::<core::starknet::info::TxInfo>,)>>"],
+      [
+        81,
+        "enum_match<core::PanicResult::<(core::box::Box::<core::starknet::info::TxInfo>,)>>"
+      ],
       [82, "struct_deconstruct<Tuple<Box<core::starknet::info::TxInfo>>>"],
       [83, "unbox<core::starknet::info::TxInfo>"],
       [84, "struct_deconstruct<core::starknet::info::TxInfo>"],
@@ -1337,7 +1400,10 @@
       [88, "function_call<user@account::account::Account::public_key::read>"],
       [89, "rename<Snapshot<Array<felt252>>>"],
       [90, "function_call<user@core::array::array_at::<core::felt252>>"],
-      [91, "enum_match<core::PanicResult::<(core::box::Box::<@core::felt252>,)>>"],
+      [
+        91,
+        "enum_match<core::PanicResult::<(core::box::Box::<@core::felt252>,)>>"
+      ],
       [92, "struct_deconstruct<Tuple<Box<felt252>>>"],
       [93, "u32_const<1>"],
       [94, "function_call<user@core::ecdsa::check_ecdsa_signature>"],
@@ -1347,7 +1413,10 @@
       [98, "store_temp<core::PanicResult::<(core::felt252,)>>"],
       [99, "felt252_const<24944740430830204917365432020251520094789>"],
       [100, "enum_init<core::PanicResult::<(core::felt252,)>, 1>"],
-      [101, "felt252_const<1797457979346250507469462289122605207149624459707208389704>"],
+      [
+        101,
+        "felt252_const<1797457979346250507469462289122605207149624459707208389704>"
+      ],
       [102, "store_temp<Unit>"],
       [103, "contract_address_try_from_felt252"],
       [
@@ -1382,7 +1451,10 @@
         111,
         "enum_init<core::PanicResult::<(core::array::Span::<core::felt252>, core::option::Option::<core::array::Array::<core::felt252>>)>, 1>"
       ],
-      [112, "enum_init<core::option::Option::<core::array::Array::<core::felt252>>, 1>"],
+      [
+        112,
+        "enum_init<core::option::Option::<core::array::Array::<core::felt252>>, 1>"
+      ],
       [113, "array_new<account::account::Call>"],
       [
         114,
@@ -1404,7 +1476,10 @@
         118,
         "enum_init<core::PanicResult::<(core::array::Span::<core::felt252>, core::option::Option::<core::array::Array::<account::account::Call>>)>, 1>"
       ],
-      [119, "enum_init<core::option::Option::<core::array::Array::<account::account::Call>>, 1>"],
+      [
+        119,
+        "enum_init<core::option::Option::<core::array::Array::<account::account::Call>>, 1>"
+      ],
       [120, "function_call<user@core::starknet::info::get_caller_address>"],
       [
         121,
@@ -1443,8 +1518,14 @@
         139,
         "function_call<user@core::starknet::SyscallResultTraitImpl::<core::array::Span::<core::felt252>>::unwrap_syscall>"
       ],
-      [140, "felt252_const<29721761890975875353235833581453094220424382983267374>"],
-      [141, "felt252_const<1896204447068499309707463803571701645130778837353537750340>"],
+      [
+        140,
+        "felt252_const<29721761890975875353235833581453094220424382983267374>"
+      ],
+      [
+        141,
+        "felt252_const<1896204447068499309707463803571701645130778837353537750340>"
+      ],
       [142, "felt252_const<6385853550292532458850551396466810579144526>"],
       [143, "felt252_const<1486822392393958861653191391200594>"],
       [144, "function_call<user@account::account::Account::public_key::write>"],
@@ -1457,14 +1538,26 @@
         150,
         "enum_match<core::PanicResult::<(core::box::Box::<core::starknet::info::ExecutionInfo>,)>>"
       ],
-      [151, "struct_deconstruct<Tuple<Box<core::starknet::info::ExecutionInfo>>>"],
+      [
+        151,
+        "struct_deconstruct<Tuple<Box<core::starknet::info::ExecutionInfo>>>"
+      ],
       [152, "unbox<core::starknet::info::ExecutionInfo>"],
       [153, "struct_deconstruct<core::starknet::info::ExecutionInfo>"],
       [154, "drop<Box<core::starknet::info::BlockInfo>>"],
       [155, "struct_construct<Tuple<Box<core::starknet::info::TxInfo>>>"],
-      [156, "enum_init<core::PanicResult::<(core::box::Box::<core::starknet::info::TxInfo>,)>, 0>"],
-      [157, "store_temp<core::PanicResult::<(core::box::Box::<core::starknet::info::TxInfo>,)>>"],
-      [158, "enum_init<core::PanicResult::<(core::box::Box::<core::starknet::info::TxInfo>,)>, 1>"],
+      [
+        156,
+        "enum_init<core::PanicResult::<(core::box::Box::<core::starknet::info::TxInfo>,)>, 0>"
+      ],
+      [
+        157,
+        "store_temp<core::PanicResult::<(core::box::Box::<core::starknet::info::TxInfo>,)>>"
+      ],
+      [
+        158,
+        "enum_init<core::PanicResult::<(core::box::Box::<core::starknet::info::TxInfo>,)>, 1>"
+      ],
       [
         159,
         "storage_base_address_const<1672321442399497129215646424919402195095307045612040218489019266998007191460>"
@@ -1484,17 +1577,29 @@
         165,
         "enum_init<core::result::Result::<core::felt252, core::array::Array::<core::felt252>>, 1>"
       ],
-      [166, "rename<core::result::Result::<core::felt252, core::array::Array::<core::felt252>>>"],
+      [
+        166,
+        "rename<core::result::Result::<core::felt252, core::array::Array::<core::felt252>>>"
+      ],
       [
         167,
         "function_call<user@core::starknet::SyscallResultTraitImpl::<core::felt252>::unwrap_syscall>"
       ],
       [168, "array_get<felt252>"],
       [169, "struct_construct<Tuple<Box<felt252>>>"],
-      [170, "enum_init<core::PanicResult::<(core::box::Box::<@core::felt252>,)>, 0>"],
-      [171, "store_temp<core::PanicResult::<(core::box::Box::<@core::felt252>,)>>"],
+      [
+        170,
+        "enum_init<core::PanicResult::<(core::box::Box::<@core::felt252>,)>, 0>"
+      ],
+      [
+        171,
+        "store_temp<core::PanicResult::<(core::box::Box::<@core::felt252>,)>>"
+      ],
       [172, "felt252_const<1637570914057682275393755530660268060279989363>"],
-      [173, "enum_init<core::PanicResult::<(core::box::Box::<@core::felt252>,)>, 1>"],
+      [
+        173,
+        "enum_init<core::PanicResult::<(core::box::Box::<@core::felt252>,)>, 1>"
+      ],
       [
         174,
         "felt252_const<3618502788666131213697322783095070105526743751716087489154079457884512865583>"
@@ -1519,9 +1624,15 @@
       [186, "dup<EcPoint>"],
       [187, "function_call<user@core::ec::EcPointAdd::add>"],
       [188, "function_call<user@core::ec::EcPointSub::sub>"],
-      [189, "enum_init<core::option::Option::<core::array::Array::<core::felt252>>, 0>"],
+      [
+        189,
+        "enum_init<core::option::Option::<core::array::Array::<core::felt252>>, 0>"
+      ],
       [190, "felt252_const<1>"],
-      [191, "enum_init<core::option::Option::<core::array::Array::<account::account::Call>>, 0>"],
+      [
+        191,
+        "enum_init<core::option::Option::<core::array::Array::<account::account::Call>>, 0>"
+      ],
       [192, "function_call<user@account::account::CallSerde::deserialize>"],
       [
         193,
@@ -1552,11 +1663,26 @@
         "enum_match<core::result::Result::<core::array::Span::<core::felt252>, core::array::Array::<core::felt252>>>"
       ],
       [203, "storage_write_syscall"],
-      [204, "enum_init<core::result::Result::<(), core::array::Array::<core::felt252>>, 0>"],
-      [205, "store_temp<core::result::Result::<(), core::array::Array::<core::felt252>>>"],
-      [206, "enum_init<core::result::Result::<(), core::array::Array::<core::felt252>>, 1>"],
-      [207, "rename<core::result::Result::<(), core::array::Array::<core::felt252>>>"],
-      [208, "function_call<user@core::starknet::SyscallResultTraitImpl::<()>::unwrap_syscall>"],
+      [
+        204,
+        "enum_init<core::result::Result::<(), core::array::Array::<core::felt252>>, 0>"
+      ],
+      [
+        205,
+        "store_temp<core::result::Result::<(), core::array::Array::<core::felt252>>>"
+      ],
+      [
+        206,
+        "enum_init<core::result::Result::<(), core::array::Array::<core::felt252>>, 1>"
+      ],
+      [
+        207,
+        "rename<core::result::Result::<(), core::array::Array::<core::felt252>>>"
+      ],
+      [
+        208,
+        "function_call<user@core::starknet::SyscallResultTraitImpl::<()>::unwrap_syscall>"
+      ],
       [209, "struct_deconstruct<Tuple<Unit>>"],
       [210, "get_execution_info_syscall"],
       [
@@ -1579,7 +1705,10 @@
         215,
         "function_call<user@core::starknet::SyscallResultTraitImpl::<core::box::Box::<core::starknet::info::ExecutionInfo>>::unwrap_syscall>"
       ],
-      [216, "struct_construct<Tuple<Box<core::starknet::info::ExecutionInfo>>>"],
+      [
+        216,
+        "struct_construct<Tuple<Box<core::starknet::info::ExecutionInfo>>>"
+      ],
       [
         217,
         "enum_init<core::PanicResult::<(core::box::Box::<core::starknet::info::ExecutionInfo>,)>, 0>"
@@ -1632,7 +1761,10 @@
       ],
       [243, "drop<Uninitialized<felt252>>"],
       [244, "drop<Uninitialized<ContractAddress>>"],
-      [245, "enum_match<core::result::Result::<(), core::array::Array::<core::felt252>>>"],
+      [
+        245,
+        "enum_match<core::result::Result::<(), core::array::Array::<core::felt252>>>"
+      ],
       [
         246,
         "enum_match<core::result::Result::<core::box::Box::<core::starknet::info::ExecutionInfo>, core::array::Array::<core::felt252>>>"
@@ -1648,7 +1780,10 @@
       [6, "account::account::Account::validate_transaction"],
       [7, "core::serde::Felt252Serde::serialize"],
       [8, "core::starknet::use_system_implicit"],
-      [9, "core::starknet::contract_address::ContractAddressSerde::deserialize"],
+      [
+        9,
+        "core::starknet::contract_address::ContractAddressSerde::deserialize"
+      ],
       [
         10,
         "core::serde::ArraySerde::<core::felt252, core::serde::Felt252Serde, core::felt252Drop>::deserialize"
@@ -1678,7 +1813,10 @@
       ],
       [22, "account::account::Account::public_key::write"],
       [23, "core::starknet::info::get_execution_info"],
-      [24, "core::starknet::SyscallResultTraitImpl::<core::felt252>::unwrap_syscall"],
+      [
+        24,
+        "core::starknet::SyscallResultTraitImpl::<core::felt252>::unwrap_syscall"
+      ],
       [25, "core::ec::ec_mul"],
       [26, "core::ec::EcPointAdd::add"],
       [27, "core::ec::EcPointSub::sub"],

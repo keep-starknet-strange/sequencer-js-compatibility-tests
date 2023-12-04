@@ -9,7 +9,7 @@ This repo defines a full test suite written in Javascript that can be used to te
 The default configuration works for Madara, you can try by running locally a madara node using
 
 ```bash
-./target/release/madara 
+./target/release/madara
 ./target/release/madara --dev
 ```
 

@@ -18403,205 +18403,147 @@
       {
         "selector": "0x48bda94899c3a48bfe7f81c68ad93eb2af4a55f1681d29569867c7a6065368",
         "offset": 2260,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x597fd4b37c433c11ea1c69de381260f58049ff3b06a288483ae964c44e9ab0",
         "offset": 2528,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x6149e22b8ccb5d5b535a2bfb1b3e00e07c9fb213305a727bfb1b1426107c84",
         "offset": 3076,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x95ce0db9d0ad353d01ea6d6764961ce66ae0ca35fd122c553e0a65dfdb0eab",
         "offset": 673,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0xaf1554e2a6b05022469a9005e86cc385397a232367867e2af13bfd2ab0604f",
         "offset": 407,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x1072cb3e199e3e5f98354da6e2013fedcef263952529ac04ad5c9e50d9f7f28",
         "offset": 3516,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x11c7347e43e48f8c4f7f69922f067b53aa841da12485c8cac6b3656168b3ac3",
         "offset": 1208,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x11c957afc7e84fbf8aac7ff9c79910a53a64edf9a779b18b411fbb1982fb84e",
         "offset": 2950,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x15714c6d31d62edc3d39c55ecc1221c6408748e18b41021c32de5b2c094dd1e",
         "offset": 939,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x15fb721bafb2d9d38461076194b894cf320c76d0bec2951ee35ae50eaec8caa",
         "offset": 4014,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x196dd73fa8f2dff3a141a7d0c0462f0cbf9f79bd3a4d51cfad9604292452995",
         "offset": 1352,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x1a250cfdacc23b2963e1d8c58a63148e024dfd0a6f2280c53a4bda34bf0905a",
         "offset": 2102,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x1b96d74a996483df84a867113b28990db744b790fcfcbb42472697e963004ed",
         "offset": 3202,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x1ba896b2ea7d16fb17e2f87b99b6632afd26ff4f8582cab05055a0362707200",
         "offset": 3672,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x20765fc50f8f75bdc4f16eda180870c58e3036bbda4998dc8b26a62f539674a",
         "offset": 2395,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x20cbe051691c714b9bcc3f3a599bbd419b5b1c0b239544efddd99e94217317b",
         "offset": 798,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x21017fca24d302e5b684197e1b496f3981d36caafebd169d750922685ff6aae",
         "offset": 1064,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x264208770ac5bafa5820377032648b7c7b9fafaff85f9f3fc9dc3a1d98fd41c",
         "offset": 1496,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x2b3ea817cd3ca07a3ab7b67e44c50fb451da69bcc86f4531435cf7da1d8ad77",
         "offset": 2648,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x2bbdef2bce963ce9df1f66e6d0c99d9ee041391248609eaa3501392f2c55900",
         "offset": 3358,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x2e7cee56dde1a85a9f26d9d3d7b4204fa30dcfa87f7cfa41de45d553bc9bd73",
         "offset": 532,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x30fed88ad39472f25c7dd10d0b7d1d79cdee9f68b88d454eba487764975d884",
         "offset": 1944,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x362398bec32bc0ebb411203221a35a0301193a96f317ebe5e40be9f60d15320",
         "offset": 0,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x3775abb253dcae6e25be4a1f04123c18ea828a02cb18a585f39d07fe093b4e4",
         "offset": 2808,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x3965d0b79dba85831cee58df24537c6482db4daf72a3194aa9822bb5fdaa45b",
         "offset": 3834,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x39683587a17f122a3d31a5ffd85cac86dcaf03fff1e124359b2db3c85fd4bf0",
         "offset": 1640,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x39cc14c53224e0c3959f62b52de46909ab05c7b8196add5e69255fd8cdcdd96",
         "offset": 266,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x39e11d48192e4333233c7eb19d10ad67c362bb28580c604d67884c85da39695",
         "offset": 141,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       },
       {
         "selector": "0x3daf6bb5517569e680534b6e94bdb6eb3e47882e46cb19d60d8add5ffae9bcc",
         "offset": 1786,
-        "builtins": [
-          "range_check"
-        ]
+        "builtins": ["range_check"]
       }
     ],
     "L1_HANDLER": [],
