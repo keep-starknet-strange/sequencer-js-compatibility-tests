@@ -141,13 +141,17 @@ describe("deploy and test Wallet", () => {
     test("multideploy with rawArgs", async () => {
       const deployments = await account.deploy([
         {
-          classHash:
-            "0x04367b26fbb92235e8d1137d19c080e6e650a6889ded726d00658411cc1046f5",
+          classHash: erc20ClassHash,
+          constructorCalldata: {
+            name: "Token1",
+            symbol: "ERC20",
+            recipient: account.address,
+          },
         },
         {
           classHash: erc20ClassHash,
           constructorCalldata: {
-            name: "Token",
+            name: "Token2",
             symbol: "ERC20",
             recipient: account.address,
           },
@@ -416,13 +420,17 @@ describe("deploy and test Wallet", () => {
     test("UDC multi Deploy", async () => {
       const deployments = await account.deploy([
         {
-          classHash:
-            "0x04367b26fbb92235e8d1137d19c080e6e650a6889ded726d00658411cc1046f5",
+          classHash: erc20ClassHash,
+          constructorCalldata: [
+            encodeShortString("Token1"),
+            encodeShortString("ERC20"),
+            account.address,
+          ],
         },
         {
           classHash: erc20ClassHash,
           constructorCalldata: [
-            encodeShortString("Token"),
+            encodeShortString("Token2"),
             encodeShortString("ERC20"),
             account.address,
           ],
